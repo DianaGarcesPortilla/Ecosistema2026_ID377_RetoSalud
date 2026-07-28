@@ -29,13 +29,13 @@ Se utilizaron las bases de datos abiertos (1 al 3) y la base derivada (4):
 1.Violencia intrafamiliar. Colombia, años 2015 a 2024 (35
 variables –236840 casos)
 
-2. Lesiones por violencia de pareja. Colombia, años 2015
+2.Lesiones por violencia de pareja. Colombia, años 2015
 a 2024 (35 variables –438786 casos).
 
-3. Presuntos homicidios. Colombia, años 2015 a 2024 (32
+3.Presuntos homicidios. Colombia, años 2015 a 2024 (32
 variables –125284​ casos)
 
-4. Base derivada que proviene de la unión entre las bases de VIF y VP por causas no fatales 2014-2025
+4.Base derivada que proviene de la unión entre las bases de VIF y VP por causas no fatales 2014-2025
 con la base de lesiones por causas fatales 2014-abril 2026, para dejar exclusivamente la intersección con homicidios VIF-VF y 
 otros tipos de homicidios, y filtrar 101 casos de interés. (71 variables – 225 registros. Entregada por INMLCF.
   
