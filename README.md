@@ -1,4 +1,4 @@
-##Aplicación de Modelos de Machine Learning para predecir el nivel de peligro de muerte por Violencia Intrafamiliar y de Pareja
+### Aplicación de Modelos de Machine Learning para predecir el nivel de peligro de muerte por Violencia Intrafamiliar y de Pareja
 
 
 ### Tabla de contenido
@@ -472,7 +472,7 @@ La comparación de modelos.
 El registro del modelo seleccionado en Unity Catalog.
 La preparación del modelo para su posterior despliegue.
 
-###17. Cómo recorrer el repositorio
+### 17. Cómo recorrer el repositorio
 
 El proyecto se encuentra organizado de forma secuencial para facilitar su comprensión y reproducibilidad. 
 Se recomienda revisar el contenido en el siguiente orden:
@@ -481,7 +481,7 @@ Tabla 14. Orden de recorrido del repositorio
 
 ![Tabla 14. Orden de recorrido del repositorio](docs/tablas/tabla14_orden_recorrido_repositorio.png.jpg)
 
-###18. Autores
+### 18. Autores
 
 Diana Liceth Garcés Portilla
 Ing. Industrial -Magister en Ciencia de Datos
@@ -490,7 +490,7 @@ Ing. Industrial -Magister en Ciencia de Datos
 Guillermo Rincón Velandia
 Economista
 
-###19. Referencias Bibliográficas
+### 19. Referencias Bibliográficas
 
 1. Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction* (2nd ed.). Springer.
 
