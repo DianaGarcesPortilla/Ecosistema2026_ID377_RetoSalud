@@ -25,7 +25,7 @@
 20. [Licencia](#20-licencia)
 
 
-###1. Descripción del proyecto
+### 1. Descripción del proyecto
 
 Este proyecto presenta una metodología basada en técnicas de aprendizaje no supervisado y supervisado 
 para predecir el nivel de peligro de muerte en víctimas de violencia intrafamiliar (VIF) y violencia de pareja (VP).
@@ -48,14 +48,14 @@ Asimismo, la solución podría ser utilizada por instituciones como IPS, comisar
 que brindan atención a víctimas, como herramienta de apoyo para la priorización de casos y la toma de decisiones.
 
 
-###2. Glosario
+### 2. Glosario
 
 Tabla1. Glosario
 
 ![Tabla 1. Glosario](docs/tablas/tabla1_glosario.png.jpg)
  |
 
-###3. Contexto
+### 3. Contexto
 
 De acuerdo con el Instituto Nacional de Salud (INS), la violencia intrafamiliar y de pareja 
 constituye un evento de interés en salud pública en Colombia, registrándose centenas de miles de casos cada año.
@@ -74,14 +74,14 @@ con la violencia intrafamiliar y de pareja (INS e INMLCF, 2026); sin embargo,
 no se identificó evidencia de aplicaciones basadas en modelos de aprendizaje automático orientadas 
 a predecir el nivel de peligro de muerte en víctimas de violencia intrafamiliar y de pareja (Muñoz et al., 2023).
 
-###4. Objetivo general
+### 4. Objetivo general
 
 Desarrollar una metodología basada en modelos de Machine Learning que permita 
 predecir el nivel de peligro de muerte en víctimas de violencia intrafamiliar y violencia de 
 pareja mediante la integración de técnicas de aprendizaje no supervisado y supervisado 
 sobre información del Instituto Nacional de Medicina Legal y Ciencias Forenses (INMLCF).
 
-###5. Objetivos específicos
+### 5. Objetivos específicos
 
 -Preparar e integrar la información del Instituto Nacional de Medicina Legal y Ciencias Forenses 
 para garantizar la calidad de los datos utilizados durante el proceso de modelado.
@@ -105,7 +105,7 @@ priorizando su capacidad para identificar correctamente los casos clasificados c
 -Registrar el modelo seleccionado en MLflow utilizando Unity Catalog, dejándolo disponible 
 para su posterior despliegue.
 
-###6. Metodología
+### 6. Metodología
 
 La metodología se desarrolla en dos fases. La primera construye 
 la variable objetivo mediante técnicas de aprendizaje no supervisado; la segunda entrena y selecciona 
@@ -113,7 +113,7 @@ un modelo supervisado para predecir el nivel de peligro en nuevos casos.
 
 ![Figura 1. Metodologìa](docs/figuras/figura1_metodologia.png.jpg)
 
-###7. Arquitectura de la solución
+### 7. Arquitectura de la solución
 
 La arquitectura de la solución está compuesta por dos capas complementarias. 
 La primera corresponde a la arquitectura técnica implementada en Databricks 
@@ -129,7 +129,7 @@ Capa superior: Arquitectura técnica (INMLCF → Databricks → MLflow → Model
 Capa inferior: Arquitectura documental (GitHub → README → Notebooks → Documentación → Evidencias).
 
 
-###8. Organización del repositorio
+### 8. Organización del repositorio
 
 Figura 3. Organización del repositorio
 
@@ -400,7 +400,7 @@ Posteriormente, se consideró el F₂-Score de esta clase, por otorgar mayor imp
 Como criterios complementarios se analizaron el F1-Score y el Accuracy macro o global, con el propósito de seleccionar un modelo con un desempeño equilibrado tanto en la clase crítica
 como en el conjunto de clases.
 
-###13. **Modelo seleccionado**
+### 13. **Modelo seleccionado**
 
    El modelo de **Regresión Logística Multinomial**, entrenado bajo el escenario de balanceo 
    con **1.000 registros** para la clase minoritaria, 
@@ -424,7 +424,7 @@ Figura 5. Matriz de confusión multiclase del mejor modelo
 ![Figura 5. Matriz de confusión multiclase del mejor modelo](docs/figuras/figura5_matriz_de_confusion_del_mejor_modelo.png.png)
 
 
-###14. **Registro del modelo.**
+### 14. **Registro del modelo.**
 
   El modelo seleccionado fue registrado en **MLflow** y 
   posteriormente en **Unity Catalog (Model Registry)** de Databricks, 
@@ -441,7 +441,7 @@ Figura 7. Registro del mejor modelo en el catàlogo de Databricks
 
 En conjunto, estos resultados demuestran la viabilidad de combinar técnicas de aprendizaje no supervisado y supervisado para construir un modelo capaz de clasificar el nivel de peligro de nuevos casos de violencia intrafamiliar y violencia de pareja, utilizando información histórica proveniente del Instituto Nacional de Medicina Legal y Ciencias Forenses de Colombia.
 
-15. Impacto social
+### 15. Impacto social
 
 El proyecto tiene el potencial de contribuir a la prevención de casos fatales de violencia intrafamiliar y violencia de pareja.
 
@@ -503,7 +503,7 @@ Economista
 5. Muñoz, et al. (2023). *Aprendizaje automático aplicado a la violencia de género: un estudio de mapeo sistemático*. Revista Colombiana de Estadística. https://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0121-11292023000200005
 
 
-###20. Licencia 
+### 20. Licencia 
 
 Este proyecto se distribuye bajo la Licencia MIT. Consulte el archivo LICENSE para conocer los términos completos de la licencia.
 
